@@ -1,4 +1,4 @@
-export const BASE_ENDPOINT = 'https://quizapp-back.herokuapp.com/';
+export const BASE_ENDPOINT = 'https://quizapp-back.herokuapp.com';
 
 export const AUTH_ENDPOINT = BASE_ENDPOINT + '/auth';
 

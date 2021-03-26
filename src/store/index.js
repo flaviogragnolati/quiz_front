@@ -6,8 +6,8 @@ import notificationMiddleware from './notificationMiddleware';
 const store = configureStore({
   reducer: rootReducer,
   middleware: (getDefaultMiddleware) =>
-    getDefaultMiddleware().concat(notificationMiddleware).concat(logger),
-  // getDefaultMiddleware().concat\(logger),
+    getDefaultMiddleware().concat(notificationMiddleware),
+  // getDefaultMiddleware().concat(notificationMiddleware).concat(logger),
 });
 
 export default store;
